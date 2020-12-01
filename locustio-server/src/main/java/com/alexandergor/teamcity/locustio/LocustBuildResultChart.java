@@ -12,7 +12,7 @@ public class LocustBuildResultChart {
     ) {
         new SimplePageExtension(
                 places,
-                PlaceId.ALL_PAGES_HEADER,
+                PlaceID.ALL_PAGES_FOOTER_PLUGIN_CONTAINER,
                 PLUGIN_NAME,
                 descriptor.getPluginResourcesPath("build.result.chart.jsp")
         ).register();
